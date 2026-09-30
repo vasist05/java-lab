@@ -1,0 +1,19 @@
+/*4.Write a Java program to demonstrate an abstract class containing an abstract method and a concrete method. */
+public class p4
+{
+public static void main(String[] args)
+{
+	person p =new person();
+	p.show();
+}
+}
+abstract class person
+{
+abstract void write()
+{
+}
+void show()
+{
+System.out.println("this is a concrete method");
+}
+}
